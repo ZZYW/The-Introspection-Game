@@ -13,6 +13,6 @@ After [FLOW](http://zhenzhenqi.info/flow/) and [Sukhavati](http://yangwang.info/
 what is this project specifically about?
 --------------------
 
-The Introspection Game creates the whold fictional universe by your own body. 
+The Introspection Game creates the whole fictional universe by your own body. 
 The game starts from a scene that completely resembles the reality room where you are in, then gradually transferring into the fictional world. Each object in the universe is actually a manifestation of one of your bio-data. We want to create this world that is fictional, non-real, yet so real and so deeply connected to yourself. As the player gradually realizes the connection between the strange world and him/herself, he/she would have this so sublime yet so intimate experience. 
 
