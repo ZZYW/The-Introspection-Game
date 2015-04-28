@@ -9,6 +9,10 @@ Project("{22068BE9-0DB3-8B32-EE3E-27077D472615}") = "The Introspection Game", "A
 EndProject
 Project("{22068BE9-0DB3-8B32-EE3E-27077D472615}") = "The Introspection Game", "Assembly-UnityScript-firstpass.unityproj", "{FF2432F1-F07B-5AC3-2B78-C0C5CF3A6453}"
 EndProject
+Project("{22068BE9-0DB3-8B32-EE3E-27077D472615}") = "The Introspection Game", "Assembly-UnityScript.unityproj", "{2BAB8DDD-8C92-28B3-53A9-BA9283E7A43A}"
+EndProject
+Project("{22068BE9-0DB3-8B32-EE3E-27077D472615}") = "The Introspection Game", "Assembly-UnityScript-Editor.unityproj", "{DDCDDEBA-1B22-9D37-8894-82FE2D7FC73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +35,19 @@ Global
 		{FF2432F1-F07B-5AC3-2B78-C0C5CF3A6453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF2432F1-F07B-5AC3-2B78-C0C5CF3A6453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF2432F1-F07B-5AC3-2B78-C0C5CF3A6453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAB8DDD-8C92-28B3-53A9-BA9283E7A43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAB8DDD-8C92-28B3-53A9-BA9283E7A43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAB8DDD-8C92-28B3-53A9-BA9283E7A43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAB8DDD-8C92-28B3-53A9-BA9283E7A43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCDDEBA-1B22-9D37-8894-82FE2D7FC73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCDDEBA-1B22-9D37-8894-82FE2D7FC73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCDDEBA-1B22-9D37-8894-82FE2D7FC73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCDDEBA-1B22-9D37-8894-82FE2D7FC73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-				GlobalSection(MonoDevelopProperties) = preSolution
+															GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
