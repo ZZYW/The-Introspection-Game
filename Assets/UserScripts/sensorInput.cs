@@ -40,9 +40,7 @@ public class sensorInput : MonoBehaviour {
 		arduino.reportAnalog(2,1);
 	}
 
-	//for drawing debug line
-	float incrX = 0.0f;
-	float xIncrement = 0.4f;
+
 
 	// Update is called once per frame
 	void Update () {
@@ -50,17 +48,7 @@ public class sensorInput : MonoBehaviour {
 		heartBeatValue = arduino.analogRead(pulseBeatPin);
 		rawBreathingValue = arduino.analogRead(breathSensorPin);
 
-		//for drawing debug line
-		rawDataList.Add(arduino.analogRead(breathSensorPin));
 
-		xList.Add(incrX);
-		incrX+=xIncrement;
-
-		for(int i=1; i< rawDataList.Count;i++){
-			Vector3 point_one = new Vector3(xList[i-1],rawDataList[i-1],0);
-			Vector3 point_two = new Vector3(xList[i],rawDataList[i],0);
-			Debug.DrawLine(point_one,point_two);
-		}
 
 	}
 	
