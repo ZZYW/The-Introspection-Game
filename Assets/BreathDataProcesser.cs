@@ -4,51 +4,105 @@ using System.Collections.Generic;
 
 public class BreathDataProcesser : MonoBehaviour {
 
-
-
-	List<float> processedDataList;
-	public float dampRate = 0.06f;
-	public float totalAverage = 0.0f;
-
-	//for drawing debug line
-	float incrX = 0.0f;
-	float xIncrement = 0.4f;
-
-
-	// Use this for initialization
-	void Start () {
-		processedDataList = new List<float>();
+	enum States {
+		WAITING_ACTUALLY_SENSOR_INPUT,
+		GETTING_FIX_AVERAGE,
+		READY,
+		RUNNING
 	}
 
-
+	States STATE;
+	bool isStable = false;
+	bool firstLogOut = false, secondLogOut = false, thirdLogOut = false; //log control, make sure log will only be printed once
+	List<float> dataSetForFixAverage; //list for calculating fixed average
+	public List<float> processedDataList;
+	public float dampRate = 0.06f;
+	public float totalAverage = 0.0f;
+	public float inhaleExhalePurposeAverage =0.0f;
+	int dataSetSize = 500;
+	int lengthOfListForGettingFixedAverage = 1000;
+	public float noiseRange = 50.0f;
 	
-	// Update is called once per frame
+
+	void Start () {
+		processedDataList = new List<float>();
+		dataSetForFixAverage = new List<float>();
+	}
+	
 	void Update () {
 		//get data from sensorInput
 		float rawData = sensorInput.getSingleton().rawBreathingValue;
+		float processedData = 0.0f;
 
+		//get at least one data into the list
 		if(processedDataList.Count == 0){
 			processedDataList.Add(rawData);
 		}else{
+			//smoother
 			float difference = rawData - processedDataList[processedDataList.Count-1];
-			float processedData = processedDataList[processedDataList.Count-1] + ( difference * dampRate );
-			Debug.Log ("currrent processed data -> " + processedData);
+			processedData = processedDataList[processedDataList.Count-1] + ( difference * dampRate );
 			processedDataList.Add(processedData);
-
-			//get total average
-			float sum = 0.0f;
-			for(int i=0;i< processedDataList.Count; i++){
-				sum += processedDataList[i];
+			//limit list's size to dataSetSize
+			if(processedDataList.Count > dataSetSize){
+				processedDataList.RemoveAt(0);
 			}
-			totalAverage = sum/processedDataList.Count;
-
 		}
 
-		if(processedDataList.Count>500){
-			processedDataList.RemoveAt(0);
+		//state control
+		//super niubi!
+
+		switch(STATE){
+
+		case States.WAITING_ACTUALLY_SENSOR_INPUT:
+		if(!firstLogOut){
+			Debug.Log("Waiting for the actual sensor data come in......");
+			firstLogOut = true;
+		}
+		if(processedDataList.Count >= dataSetSize){
+			STATE++;
+		}
+		break;
+
+
+		case States.GETTING_FIX_AVERAGE:
+			if(!secondLogOut){
+				Debug.Log ("Trying to get the fixed average value by collect " + lengthOfListForGettingFixedAverage
+				           + "breath input data...");
+				secondLogOut = true;
+			}
+			//add data into dataSetForFixedAverage, when the lengh reaches lengthOfListForGettingFixedAverage
+			//then calculate the fixed average, pretty useful!
+			dataSetForFixAverage.Add(processedData);
+			if(dataSetForFixAverage.Count > lengthOfListForGettingFixedAverage){
+			float temp_sum = 0.0f;
+			for(int i=0;i<dataSetForFixAverage.Count;i++){
+				temp_sum += dataSetForFixAverage[i];
+			}
+			inhaleExhalePurposeAverage = temp_sum/dataSetForFixAverage.Count;
+			if(inhaleExhalePurposeAverage != 0){
+				dataSetForFixAverage.Clear(); //clear the list to release some memory
+				dataSetForFixAverage = null;
+				STATE++;
+			}
+		}
+		break;
+
+
+		case States.READY:
+			isStable = true;
+			if(!thirdLogOut){
+				Debug.Log("Breath Data All Set, Ready to use!");
+				thirdLogOut = true;
+			}
+			STATE++;
+		break;
 		}
 
-		//draw processed data
+		drawCurves();
+
+	}
+
+	void drawCurves(){
 		if(processedDataList.Count>2){
 			for(int i=1; i< processedDataList.Count;i++){
 				Vector3 point_one = new Vector3(i-1,processedDataList[i-1]);
@@ -56,8 +110,9 @@ public class BreathDataProcesser : MonoBehaviour {
 				Debug.DrawLine(point_one,point_two);
 			}
 		}
-		//draw average
-		Debug.DrawLine(new Vector2(0,totalAverage),new Vector2(processedDataList.Count,totalAverage));
 
+		if(isStable){
+			Debug.DrawLine(new Vector2(0,inhaleExhalePurposeAverage),new Vector2(processedDataList.Count,inhaleExhalePurposeAverage));
+		}
 	}
 }

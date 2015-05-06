@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\BreathDataProcesser.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\Suimono_reflectionMirror.cs" />
+     <Compile Include="Assets\SensorChecker.cs" />
      <Compile Include="Assets\Uniduino\Scripts\Arduino.Firmata.cs" />
      <Compile Include="Assets\Uniduino\Scripts\Arduino.cs" />
      <Compile Include="Assets\Uniduino\Scripts\SerialPortProxy.cs" />
