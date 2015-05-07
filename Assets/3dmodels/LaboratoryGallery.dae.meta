@@ -1,0 +1,2138 @@
+fileFormatVersion: 2
+guid: 013d517fe60794931ad97e2f11a59188
+timeCreated: 1430990363
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bell___Plymouth_Style_Door_Knob_with_key_lock__privacy_lock___non-locking_options__2.375in_throw__1.375in_Thick_Door_
+    100002: Bell_Handle_-_Inside_Assembly
+    100004: Bell_Handle_-_Outside_Assembly
+    100006: Clipsal_2000_Power_Point_1
+    100008: Clipsal_2000_Power_Point_2
+    100010: Door_-_Interior_1.375in_x_78in_x_22in_-_6_Panel__Modern__Roman__Arlington_
+    100012: Door_-_Interior_1.375in_x_78in_x_22in_-_6_Panel_With_Hardware__Modern__Roman__Arlington_
+    100014: Door_Frame_-_Interior_4.5in_x_78in_x_22in_Door_With_Hardware__1.375in_Thick_Door_
+    100016: Door_Frame_-_Interior__3.5in_wall__1.375in_x_80in_x_12in_Door__With_Mortises_
+    100018: Door_Frame_-_Interior__4.5in_wall__1.375in_x_78in_x_22in_Door__With_Mortises_
+    100020: Door_Jamb_-_4.5in_x_22.5_in__22in_Door_
+    100022: Door_Jamb_-_4.5in_x_79.5_in__78in_H_x_1.375in_T_Door__Latch_Mortise_
+    100024: Door_Jamb_Stop_-_22.125in__22in_Door_
+    100026: Door_Jamb_Stop_-_78_13_16in__78in_Door_
+    100028: Door_Jamb_Stop_-_78_13_16in__78in_Door_ 1
+    100030: Door_Knob_-_Inside_Assembly
+    100032: Door_Knob_-_Outside_Assembly
+    100034: Faceplate_w__locking_pin_notch
+    100036: group_0
+    100038: group_1
+    100040: group_10
+    100042: group_11
+    100044: group_12
+    100046: group_13
+    100048: group_14
+    100050: group_15
+    100052: group_16
+    100054: group_17
+    100056: group_18
+    100058: group_19
+    100060: group_2
+    100062: group_20
+    100064: group_21
+    100066: group_22
+    100068: group_23
+    100070: group_24
+    100072: group_25
+    100074: group_26
+    100076: group_27
+    100078: group_28
+    100080: group_29
+    100082: group_3
+    100084: group_30
+    100086: group_31
+    100088: group_32
+    100090: group_33
+    100092: group_34
+    100094: group_35
+    100096: group_36
+    100098: group_37
+    100100: group_38
+    100102: group_39
+    100104: group_4
+    100106: group_40
+    100108: group_41
+    100110: group_41 1
+    100112: group_41 2
+    100114: group_42
+    100116: group_43
+    100118: group_44
+    100120: group_45
+    100122: group_46
+    100124: group_47
+    100126: group_48
+    100128: group_49
+    100130: group_5
+    100132: group_50
+    100134: group_6
+    100136: group_7
+    100138: group_8
+    100140: group_9
+    100142: Handle_-_Bell
+    100144: Handle_-_Bell 1
+    100146: Handle_Detail_-_Privacy_Lock_-_Concave
+    100148: Handle_Detail_-_Twist_Lock
+    100150: Handles_-_Inside
+    100152: Handles_-_Outside
+    100154: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Three_Tab_Side_With_Pin
+    100156: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Three_Tab_Side_With_Pin 1
+    100158: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Three_Tab_Side_With_Pin 2
+    100160: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Two_Tab_Side
+    100162: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Two_Tab_Side 1
+    100164: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Two_Tab_Side 2
+    100166: Hinge_Bottom_Cap
+    100168: Hinge_Bottom_Cap 1
+    100170: Hinge_Bottom_Cap 2
+    100172: Hinge_Pin_-_3.5in
+    100174: Hinge_Pin_-_3.5in 1
+    100176: Hinge_Pin_-_3.5in 2
+    100178: Hinge_Plate
+    100180: Hinge_Plate 1
+    100182: Hinge_Plate 2
+    100184: ID1000
+    100186: ID1036
+    100188: ID1036 1
+    100190: ID1042
+    100192: ID1042 1
+    100194: ID1048
+    100196: ID1048 1
+    100198: ID1054
+    100200: ID1054 1
+    100202: ID1074
+    100204: ID1104
+    100206: ID1104 1
+    100208: ID1110
+    100210: ID1110 1
+    100212: ID1116
+    100214: ID1116 1
+    100216: ID1122
+    100218: ID1122 1
+    100220: ID1128
+    100222: ID1128 1
+    100224: ID1134
+    100226: ID1134 1
+    100228: ID1140
+    100230: ID1140 1
+    100232: ID1154
+    100234: ID1160
+    100236: ID1166
+    100238: ID1172
+    100240: ID1186
+    100242: ID1186 1
+    100244: ID1201
+    100246: ID1207
+    100248: ID1225
+    100250: ID1240
+    100252: ID1246
+    100254: ID1252
+    100256: ID1258
+    100258: ID1264
+    100260: ID1270
+    100262: ID1286
+    100264: ID1302
+    100266: ID1308
+    100268: ID1314
+    100270: ID1320
+    100272: ID1326
+    100274: ID1332
+    100276: ID1338
+    100278: ID1342
+    100280: ID1364
+    100282: ID1370
+    100284: ID1384
+    100286: ID1384 1
+    100288: ID1407
+    100290: ID1413
+    100292: ID1419
+    100294: ID1434
+    100296: ID1434 1
+    100298: ID1434 2
+    100300: ID1440
+    100302: ID1440 1
+    100304: ID1440 2
+    100306: ID1446
+    100308: ID1446 1
+    100310: ID1446 2
+    100312: ID1469
+    100314: ID1469 1
+    100316: ID1469 2
+    100318: ID148
+    100320: ID1483
+    100322: ID1483 1
+    100324: ID1483 2
+    100326: ID1489
+    100328: ID1489 1
+    100330: ID1489 2
+    100332: ID1495
+    100334: ID1495 1
+    100336: ID1495 2
+    100338: ID1501
+    100340: ID1501 1
+    100342: ID1501 2
+    100344: ID1507
+    100346: ID1507 1
+    100348: ID1507 2
+    100350: ID1513
+    100352: ID1513 1
+    100354: ID1513 2
+    100356: ID1521
+    100358: ID1521 1
+    100360: ID1521 2
+    100362: ID1538
+    100364: ID1544
+    100366: ID1550
+    100368: ID1556
+    100370: ID1570
+    100372: ID1585
+    100374: ID1617
+    100376: ID1623
+    100378: ID1629
+    100380: ID1635
+    100382: ID1649
+    100384: ID181
+    100386: ID198
+    100388: ID236
+    100390: ID253
+    100392: ID294
+    100394: ID334
+    100396: ID351
+    100398: ID368
+    100400: ID401
+    100402: ID449
+    100404: ID462
+    100406: ID470
+    100408: ID494
+    100410: ID522
+    100412: ID522 1
+    100414: ID522 2
+    100416: ID528
+    100418: ID528 1
+    100420: ID528 2
+    100422: ID534
+    100424: ID534 1
+    100426: ID534 2
+    100428: ID547
+    100430: ID547 1
+    100432: ID547 2
+    100434: ID561
+    100436: ID561 1
+    100438: ID561 10
+    100440: ID561 11
+    100442: ID561 12
+    100444: ID561 13
+    100446: ID561 14
+    100448: ID561 15
+    100450: ID561 16
+    100452: ID561 17
+    100454: ID561 18
+    100456: ID561 19
+    100458: ID561 2
+    100460: ID561 3
+    100462: ID561 4
+    100464: ID561 5
+    100466: ID561 6
+    100468: ID561 7
+    100470: ID561 8
+    100472: ID561 9
+    100474: ID57
+    100476: ID577
+    100478: ID577 1
+    100480: ID577 2
+    100482: ID595
+    100484: ID601
+    100486: ID607
+    100488: ID628
+    100490: ID636
+    100492: ID642
+    100494: ID664
+    100496: ID670
+    100498: ID676
+    100500: ID70
+    100502: ID718
+    100504: ID761
+    100506: ID761 1
+    100508: ID767
+    100510: ID767 1
+    100512: ID773
+    100514: ID773 1
+    100516: ID779
+    100518: ID779 1
+    100520: ID78
+    100522: ID806
+    100524: ID820
+    100526: ID826
+    100528: ID841
+    100530: ID847
+    100532: ID863
+    100534: ID863 1
+    100536: ID869
+    100538: ID869 1
+    100540: ID875
+    100542: ID875 1
+    100544: ID881
+    100546: ID881 1
+    100548: ID921
+    100550: ID936
+    100552: ID942
+    100554: ID956
+    100556: ID962
+    100558: ID968
+    100560: ID982
+    100562: ID988
+    100564: ID994
+    100566: instance_0
+    100568: instance_1
+    100570: instance_10
+    100572: instance_11
+    100574: instance_12
+    100576: instance_13
+    100578: instance_14
+    100580: instance_15
+    100582: instance_16
+    100584: instance_17
+    100586: instance_18
+    100588: instance_19
+    100590: instance_2
+    100592: instance_20
+    100594: instance_21
+    100596: instance_22
+    100598: instance_23
+    100600: instance_23 1
+    100602: instance_24
+    100604: instance_24 1
+    100606: instance_24 2
+    100608: instance_24 3
+    100610: instance_25
+    100612: instance_25 1
+    100614: instance_25 2
+    100616: instance_25 3
+    100618: instance_26
+    100620: instance_26 1
+    100622: instance_26 2
+    100624: instance_26 3
+    100626: instance_27
+    100628: instance_27 1
+    100630: instance_27 2
+    100632: instance_27 3
+    100634: instance_28
+    100636: instance_28 1
+    100638: instance_29
+    100640: instance_29 1
+    100642: instance_3
+    100644: instance_3 1
+    100646: instance_3 2
+    100648: instance_30
+    100650: instance_31
+    100652: instance_32
+    100654: instance_33
+    100656: instance_34
+    100658: instance_35
+    100660: instance_35 1
+    100662: instance_36
+    100664: instance_36 1
+    100666: instance_37
+    100668: instance_37 1
+    100670: instance_37 2
+    100672: instance_37 3
+    100674: instance_38
+    100676: instance_38 1
+    100678: instance_38 2
+    100680: instance_38 3
+    100682: instance_39
+    100684: instance_39 1
+    100686: instance_39 2
+    100688: instance_39 3
+    100690: instance_4
+    100692: instance_4 1
+    100694: instance_4 2
+    100696: instance_40
+    100698: instance_40 1
+    100700: instance_40 2
+    100702: instance_40 3
+    100704: instance_41
+    100706: instance_41 1
+    100708: instance_42
+    100710: instance_43
+    100712: instance_44
+    100714: instance_45
+    100716: instance_46
+    100718: instance_47
+    100720: instance_48
+    100722: instance_48 1
+    100724: instance_49
+    100726: instance_49 1
+    100728: instance_49 2
+    100730: instance_49 3
+    100732: instance_5
+    100734: instance_5 1
+    100736: instance_5 2
+    100738: instance_50
+    100740: instance_50 1
+    100742: instance_50 2
+    100744: instance_50 3
+    100746: instance_51
+    100748: instance_51 1
+    100750: instance_51 2
+    100752: instance_51 3
+    100754: instance_52
+    100756: instance_52 1
+    100758: instance_52 2
+    100760: instance_52 3
+    100762: instance_53
+    100764: instance_53 1
+    100766: instance_54
+    100768: instance_54 1
+    100770: instance_55
+    100772: instance_56
+    100774: instance_57
+    100776: instance_58
+    100778: instance_59
+    100780: instance_6
+    100782: instance_6 1
+    100784: instance_6 2
+    100786: instance_60
+    100788: instance_61
+    100790: instance_62
+    100792: instance_63
+    100794: instance_64
+    100796: instance_65
+    100798: instance_66
+    100800: instance_67
+    100802: instance_68
+    100804: instance_69
+    100806: instance_7
+    100808: instance_70
+    100810: instance_71
+    100812: instance_72
+    100814: instance_73
+    100816: instance_74
+    100818: instance_75
+    100820: instance_76
+    100822: instance_77
+    100824: instance_78
+    100826: instance_78 1
+    100828: instance_78 2
+    100830: instance_79
+    100832: instance_79 1
+    100834: instance_79 2
+    100836: instance_8
+    100838: instance_80
+    100840: instance_80 1
+    100842: instance_80 2
+    100844: instance_81
+    100846: instance_82
+    100848: instance_83
+    100850: instance_84
+    100852: instance_84 1
+    100854: instance_84 2
+    100856: instance_85
+    100858: instance_86
+    100860: instance_87
+    100862: instance_88
+    100864: instance_89
+    100866: instance_9
+    100868: Interior_Door_78_x22___6_Panel_w__4.5__Frame___Hardware__Arlington_
+    100870: //RootNode
+    100872: Latch
+    100874: Latch_-_Assembly__2_3_8in_throw_
+    100876: Latch_-_Barrel
+    100878: Latch_-_Core
+    100880: Latch_-_Faceplate_with_locking_pin
+    100882: Latch_-_Subassembly
+    100884: Locking_Pin
+    100886: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H
+    100888: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H 1
+    100890: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H 2
+    100892: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H 3
+    100894: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H
+    100896: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H 1
+    100898: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H 2
+    100900: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H 3
+    100902: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H
+    100904: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H 1
+    100906: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H 2
+    100908: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H 3
+    100910: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V
+    100912: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 1
+    100914: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 2
+    100916: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 3
+    100918: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 4
+    100920: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 5
+    100922: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 6
+    100924: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 7
+    100926: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V
+    100928: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 1
+    100930: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 2
+    100932: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 3
+    100934: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 4
+    100936: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 5
+    100938: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 6
+    100940: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 7
+    100942: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H
+    100944: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 1
+    100946: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 10
+    100948: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 11
+    100950: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 12
+    100952: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 13
+    100954: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 14
+    100956: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 15
+    100958: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 16
+    100960: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 17
+    100962: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 18
+    100964: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 19
+    100966: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 2
+    100968: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 20
+    100970: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 21
+    100972: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 22
+    100974: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 23
+    100976: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 3
+    100978: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 4
+    100980: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 5
+    100982: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 6
+    100984: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 7
+    100986: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 8
+    100988: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 9
+    100990: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V
+    100992: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 1
+    100994: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 2
+    100996: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 3
+    100998: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 4
+    101000: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 5
+    101002: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 6
+    101004: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 7
+    101006: Mounting_Plate
+    101008: Mounting_Plate 1
+    101010: Panel_-_Modern_5.5in_W_x_21.25in_H
+    101012: Panel_-_Modern_5.5in_W_x_21.25in_H 1
+    101014: Panel_-_Modern_5.5in_W_x_23.25in_H
+    101016: Panel_-_Modern_5.5in_W_x_23.25in_H 1
+    101018: Panel_-_Modern_5.5in_W_x_8.5in_H
+    101020: Panel_-_Modern_5.5in_W_x_8.5in_H 1
+    101022: Panel_Assembly_5.5in_W_x_21.25in_H__Modern__Roman_
+    101024: Panel_Assembly_5.5in_W_x_21.25in_H__Modern__Roman_ 1
+    101026: Panel_Assembly_5.5in_W_x_23.25in_H__Modern__Roman_
+    101028: Panel_Assembly_5.5in_W_x_23.25in_H__Modern__Roman_ 1
+    101030: Panel_Assembly_5.5in_W_x_8.5in_H__Modern__Roman_
+    101032: Panel_Assembly_5.5in_W_x_8.5in_H__Modern__Roman_ 1
+    101034: Power_Point_-_Clipsal_2000_Wall_Plate_with_2_x_Power_Ports_1
+    101036: Rail_-_Bottom_1.375in_x_15in_x_9.75in__22in___24in_door_
+    101038: Rail_-_Cross_1.375in_x_15in_x_3.875in__22in___24in_door_
+    101040: Rail_-_Lock_1.375in_x_15in_x_6.875in__22in___24in_door_
+    101042: Rail_-_Top_1.375in_x_15in_x_4.5in__22in___24in_door_
+    101044: Rose_-_Inside
+    101046: Rose_-_Outside
+    101048: Screw_-_Rounded_Head_5_32in_x_1_1_2in
+    101050: Screw_-_Rounded_Head_5_32in_x_1_1_2in 1
+    101052: Screw_head
+    101054: Screw_head 1
+    101056: Screw_head 2
+    101058: Screw_Head_-_Philips_0.25in_Recessed
+    101060: Screw_Head_-_Philips_0.25in_Recessed 1
+    101062: Screw_Head_-_Philips_0.25in_Recessed 10
+    101064: Screw_Head_-_Philips_0.25in_Recessed 11
+    101066: Screw_Head_-_Philips_0.25in_Recessed 12
+    101068: Screw_Head_-_Philips_0.25in_Recessed 13
+    101070: Screw_Head_-_Philips_0.25in_Recessed 14
+    101072: Screw_Head_-_Philips_0.25in_Recessed 15
+    101074: Screw_Head_-_Philips_0.25in_Recessed 16
+    101076: Screw_Head_-_Philips_0.25in_Recessed 17
+    101078: Screw_Head_-_Philips_0.25in_Recessed 18
+    101080: Screw_Head_-_Philips_0.25in_Recessed 19
+    101082: Screw_Head_-_Philips_0.25in_Recessed 2
+    101084: Screw_Head_-_Philips_0.25in_Recessed 20
+    101086: Screw_Head_-_Philips_0.25in_Recessed 21
+    101088: Screw_Head_-_Philips_0.25in_Recessed 3
+    101090: Screw_Head_-_Philips_0.25in_Recessed 4
+    101092: Screw_Head_-_Philips_0.25in_Recessed 5
+    101094: Screw_Head_-_Philips_0.25in_Recessed 6
+    101096: Screw_Head_-_Philips_0.25in_Recessed 7
+    101098: Screw_Head_-_Philips_0.25in_Recessed 8
+    101100: Screw_Head_-_Philips_0.25in_Recessed 9
+    101102: Square_Spindle
+    101104: Stile_-_1.375in_x_4in_x_21.25in
+    101106: Stile_-_1.375in_x_4in_x_23.25in
+    101108: Stile_-_1.375in_x_4in_x_8.5in
+    101110: Stile_-_Hinge_1.375in_x_3.5in_x_78in
+    101112: Stile_-_Lock_1.375in_x_78in_x_3.5in__Single_Bore_
+    101114: Strike_Plate
+    101116: Strikeplate
+    101118: Wall_Outlet
+    101120: Wall_Outlet 1
+    101122: Wall_Outlet 2
+    400000: Bell___Plymouth_Style_Door_Knob_with_key_lock__privacy_lock___non-locking_options__2.375in_throw__1.375in_Thick_Door_
+    400002: Bell_Handle_-_Inside_Assembly
+    400004: Bell_Handle_-_Outside_Assembly
+    400006: Clipsal_2000_Power_Point_1
+    400008: Clipsal_2000_Power_Point_2
+    400010: Door_-_Interior_1.375in_x_78in_x_22in_-_6_Panel__Modern__Roman__Arlington_
+    400012: Door_-_Interior_1.375in_x_78in_x_22in_-_6_Panel_With_Hardware__Modern__Roman__Arlington_
+    400014: Door_Frame_-_Interior_4.5in_x_78in_x_22in_Door_With_Hardware__1.375in_Thick_Door_
+    400016: Door_Frame_-_Interior__3.5in_wall__1.375in_x_80in_x_12in_Door__With_Mortises_
+    400018: Door_Frame_-_Interior__4.5in_wall__1.375in_x_78in_x_22in_Door__With_Mortises_
+    400020: Door_Jamb_-_4.5in_x_22.5_in__22in_Door_
+    400022: Door_Jamb_-_4.5in_x_79.5_in__78in_H_x_1.375in_T_Door__Latch_Mortise_
+    400024: Door_Jamb_Stop_-_22.125in__22in_Door_
+    400026: Door_Jamb_Stop_-_78_13_16in__78in_Door_
+    400028: Door_Jamb_Stop_-_78_13_16in__78in_Door_ 1
+    400030: Door_Knob_-_Inside_Assembly
+    400032: Door_Knob_-_Outside_Assembly
+    400034: Faceplate_w__locking_pin_notch
+    400036: group_0
+    400038: group_1
+    400040: group_10
+    400042: group_11
+    400044: group_12
+    400046: group_13
+    400048: group_14
+    400050: group_15
+    400052: group_16
+    400054: group_17
+    400056: group_18
+    400058: group_19
+    400060: group_2
+    400062: group_20
+    400064: group_21
+    400066: group_22
+    400068: group_23
+    400070: group_24
+    400072: group_25
+    400074: group_26
+    400076: group_27
+    400078: group_28
+    400080: group_29
+    400082: group_3
+    400084: group_30
+    400086: group_31
+    400088: group_32
+    400090: group_33
+    400092: group_34
+    400094: group_35
+    400096: group_36
+    400098: group_37
+    400100: group_38
+    400102: group_39
+    400104: group_4
+    400106: group_40
+    400108: group_41
+    400110: group_41 1
+    400112: group_41 2
+    400114: group_42
+    400116: group_43
+    400118: group_44
+    400120: group_45
+    400122: group_46
+    400124: group_47
+    400126: group_48
+    400128: group_49
+    400130: group_5
+    400132: group_50
+    400134: group_6
+    400136: group_7
+    400138: group_8
+    400140: group_9
+    400142: Handle_-_Bell
+    400144: Handle_-_Bell 1
+    400146: Handle_Detail_-_Privacy_Lock_-_Concave
+    400148: Handle_Detail_-_Twist_Lock
+    400150: Handles_-_Inside
+    400152: Handles_-_Outside
+    400154: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Three_Tab_Side_With_Pin
+    400156: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Three_Tab_Side_With_Pin 1
+    400158: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Three_Tab_Side_With_Pin 2
+    400160: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Two_Tab_Side
+    400162: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Two_Tab_Side 1
+    400164: Hinge_-_Full_Mortise_-_3.5in_x_1.5in_Two_Tab_Side 2
+    400166: Hinge_Bottom_Cap
+    400168: Hinge_Bottom_Cap 1
+    400170: Hinge_Bottom_Cap 2
+    400172: Hinge_Pin_-_3.5in
+    400174: Hinge_Pin_-_3.5in 1
+    400176: Hinge_Pin_-_3.5in 2
+    400178: Hinge_Plate
+    400180: Hinge_Plate 1
+    400182: Hinge_Plate 2
+    400184: ID1000
+    400186: ID1036
+    400188: ID1036 1
+    400190: ID1042
+    400192: ID1042 1
+    400194: ID1048
+    400196: ID1048 1
+    400198: ID1054
+    400200: ID1054 1
+    400202: ID1074
+    400204: ID1104
+    400206: ID1104 1
+    400208: ID1110
+    400210: ID1110 1
+    400212: ID1116
+    400214: ID1116 1
+    400216: ID1122
+    400218: ID1122 1
+    400220: ID1128
+    400222: ID1128 1
+    400224: ID1134
+    400226: ID1134 1
+    400228: ID1140
+    400230: ID1140 1
+    400232: ID1154
+    400234: ID1160
+    400236: ID1166
+    400238: ID1172
+    400240: ID1186
+    400242: ID1186 1
+    400244: ID1201
+    400246: ID1207
+    400248: ID1225
+    400250: ID1240
+    400252: ID1246
+    400254: ID1252
+    400256: ID1258
+    400258: ID1264
+    400260: ID1270
+    400262: ID1286
+    400264: ID1302
+    400266: ID1308
+    400268: ID1314
+    400270: ID1320
+    400272: ID1326
+    400274: ID1332
+    400276: ID1338
+    400278: ID1342
+    400280: ID1364
+    400282: ID1370
+    400284: ID1384
+    400286: ID1384 1
+    400288: ID1407
+    400290: ID1413
+    400292: ID1419
+    400294: ID1434
+    400296: ID1434 1
+    400298: ID1434 2
+    400300: ID1440
+    400302: ID1440 1
+    400304: ID1440 2
+    400306: ID1446
+    400308: ID1446 1
+    400310: ID1446 2
+    400312: ID1469
+    400314: ID1469 1
+    400316: ID1469 2
+    400318: ID148
+    400320: ID1483
+    400322: ID1483 1
+    400324: ID1483 2
+    400326: ID1489
+    400328: ID1489 1
+    400330: ID1489 2
+    400332: ID1495
+    400334: ID1495 1
+    400336: ID1495 2
+    400338: ID1501
+    400340: ID1501 1
+    400342: ID1501 2
+    400344: ID1507
+    400346: ID1507 1
+    400348: ID1507 2
+    400350: ID1513
+    400352: ID1513 1
+    400354: ID1513 2
+    400356: ID1521
+    400358: ID1521 1
+    400360: ID1521 2
+    400362: ID1538
+    400364: ID1544
+    400366: ID1550
+    400368: ID1556
+    400370: ID1570
+    400372: ID1585
+    400374: ID1617
+    400376: ID1623
+    400378: ID1629
+    400380: ID1635
+    400382: ID1649
+    400384: ID181
+    400386: ID198
+    400388: ID236
+    400390: ID253
+    400392: ID294
+    400394: ID334
+    400396: ID351
+    400398: ID368
+    400400: ID401
+    400402: ID449
+    400404: ID462
+    400406: ID470
+    400408: ID494
+    400410: ID522
+    400412: ID522 1
+    400414: ID522 2
+    400416: ID528
+    400418: ID528 1
+    400420: ID528 2
+    400422: ID534
+    400424: ID534 1
+    400426: ID534 2
+    400428: ID547
+    400430: ID547 1
+    400432: ID547 2
+    400434: ID561
+    400436: ID561 1
+    400438: ID561 10
+    400440: ID561 11
+    400442: ID561 12
+    400444: ID561 13
+    400446: ID561 14
+    400448: ID561 15
+    400450: ID561 16
+    400452: ID561 17
+    400454: ID561 18
+    400456: ID561 19
+    400458: ID561 2
+    400460: ID561 3
+    400462: ID561 4
+    400464: ID561 5
+    400466: ID561 6
+    400468: ID561 7
+    400470: ID561 8
+    400472: ID561 9
+    400474: ID57
+    400476: ID577
+    400478: ID577 1
+    400480: ID577 2
+    400482: ID595
+    400484: ID601
+    400486: ID607
+    400488: ID628
+    400490: ID636
+    400492: ID642
+    400494: ID664
+    400496: ID670
+    400498: ID676
+    400500: ID70
+    400502: ID718
+    400504: ID761
+    400506: ID761 1
+    400508: ID767
+    400510: ID767 1
+    400512: ID773
+    400514: ID773 1
+    400516: ID779
+    400518: ID779 1
+    400520: ID78
+    400522: ID806
+    400524: ID820
+    400526: ID826
+    400528: ID841
+    400530: ID847
+    400532: ID863
+    400534: ID863 1
+    400536: ID869
+    400538: ID869 1
+    400540: ID875
+    400542: ID875 1
+    400544: ID881
+    400546: ID881 1
+    400548: ID921
+    400550: ID936
+    400552: ID942
+    400554: ID956
+    400556: ID962
+    400558: ID968
+    400560: ID982
+    400562: ID988
+    400564: ID994
+    400566: instance_0
+    400568: instance_1
+    400570: instance_10
+    400572: instance_11
+    400574: instance_12
+    400576: instance_13
+    400578: instance_14
+    400580: instance_15
+    400582: instance_16
+    400584: instance_17
+    400586: instance_18
+    400588: instance_19
+    400590: instance_2
+    400592: instance_20
+    400594: instance_21
+    400596: instance_22
+    400598: instance_23
+    400600: instance_23 1
+    400602: instance_24
+    400604: instance_24 1
+    400606: instance_24 2
+    400608: instance_24 3
+    400610: instance_25
+    400612: instance_25 1
+    400614: instance_25 2
+    400616: instance_25 3
+    400618: instance_26
+    400620: instance_26 1
+    400622: instance_26 2
+    400624: instance_26 3
+    400626: instance_27
+    400628: instance_27 1
+    400630: instance_27 2
+    400632: instance_27 3
+    400634: instance_28
+    400636: instance_28 1
+    400638: instance_29
+    400640: instance_29 1
+    400642: instance_3
+    400644: instance_3 1
+    400646: instance_3 2
+    400648: instance_30
+    400650: instance_31
+    400652: instance_32
+    400654: instance_33
+    400656: instance_34
+    400658: instance_35
+    400660: instance_35 1
+    400662: instance_36
+    400664: instance_36 1
+    400666: instance_37
+    400668: instance_37 1
+    400670: instance_37 2
+    400672: instance_37 3
+    400674: instance_38
+    400676: instance_38 1
+    400678: instance_38 2
+    400680: instance_38 3
+    400682: instance_39
+    400684: instance_39 1
+    400686: instance_39 2
+    400688: instance_39 3
+    400690: instance_4
+    400692: instance_4 1
+    400694: instance_4 2
+    400696: instance_40
+    400698: instance_40 1
+    400700: instance_40 2
+    400702: instance_40 3
+    400704: instance_41
+    400706: instance_41 1
+    400708: instance_42
+    400710: instance_43
+    400712: instance_44
+    400714: instance_45
+    400716: instance_46
+    400718: instance_47
+    400720: instance_48
+    400722: instance_48 1
+    400724: instance_49
+    400726: instance_49 1
+    400728: instance_49 2
+    400730: instance_49 3
+    400732: instance_5
+    400734: instance_5 1
+    400736: instance_5 2
+    400738: instance_50
+    400740: instance_50 1
+    400742: instance_50 2
+    400744: instance_50 3
+    400746: instance_51
+    400748: instance_51 1
+    400750: instance_51 2
+    400752: instance_51 3
+    400754: instance_52
+    400756: instance_52 1
+    400758: instance_52 2
+    400760: instance_52 3
+    400762: instance_53
+    400764: instance_53 1
+    400766: instance_54
+    400768: instance_54 1
+    400770: instance_55
+    400772: instance_56
+    400774: instance_57
+    400776: instance_58
+    400778: instance_59
+    400780: instance_6
+    400782: instance_6 1
+    400784: instance_6 2
+    400786: instance_60
+    400788: instance_61
+    400790: instance_62
+    400792: instance_63
+    400794: instance_64
+    400796: instance_65
+    400798: instance_66
+    400800: instance_67
+    400802: instance_68
+    400804: instance_69
+    400806: instance_7
+    400808: instance_70
+    400810: instance_71
+    400812: instance_72
+    400814: instance_73
+    400816: instance_74
+    400818: instance_75
+    400820: instance_76
+    400822: instance_77
+    400824: instance_78
+    400826: instance_78 1
+    400828: instance_78 2
+    400830: instance_79
+    400832: instance_79 1
+    400834: instance_79 2
+    400836: instance_8
+    400838: instance_80
+    400840: instance_80 1
+    400842: instance_80 2
+    400844: instance_81
+    400846: instance_82
+    400848: instance_83
+    400850: instance_84
+    400852: instance_84 1
+    400854: instance_84 2
+    400856: instance_85
+    400858: instance_86
+    400860: instance_87
+    400862: instance_88
+    400864: instance_89
+    400866: instance_9
+    400868: Interior_Door_78_x22___6_Panel_w__4.5__Frame___Hardware__Arlington_
+    400870: //RootNode
+    400872: Latch
+    400874: Latch_-_Assembly__2_3_8in_throw_
+    400876: Latch_-_Barrel
+    400878: Latch_-_Core
+    400880: Latch_-_Faceplate_with_locking_pin
+    400882: Latch_-_Subassembly
+    400884: Locking_Pin
+    400886: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H
+    400888: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H 1
+    400890: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H 2
+    400892: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_21.25in_H 3
+    400894: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H
+    400896: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H 1
+    400898: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H 2
+    400900: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_23.25in_H 3
+    400902: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H
+    400904: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H 1
+    400906: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H 2
+    400908: Molding_-_Classical_Roman_0.5in_-_5.5in_W_x_8.5in_H 3
+    400910: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V
+    400912: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 1
+    400914: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 2
+    400916: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 3
+    400918: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 4
+    400920: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 5
+    400922: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 6
+    400924: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 7
+    400926: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V
+    400928: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 1
+    400930: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 2
+    400932: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 3
+    400934: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 4
+    400936: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 5
+    400938: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 6
+    400940: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 7
+    400942: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H
+    400944: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 1
+    400946: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 10
+    400948: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 11
+    400950: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 12
+    400952: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 13
+    400954: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 14
+    400956: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 15
+    400958: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 16
+    400960: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 17
+    400962: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 18
+    400964: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 19
+    400966: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 2
+    400968: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 20
+    400970: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 21
+    400972: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 22
+    400974: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 23
+    400976: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 3
+    400978: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 4
+    400980: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 5
+    400982: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 6
+    400984: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 7
+    400986: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 8
+    400988: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 9
+    400990: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V
+    400992: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 1
+    400994: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 2
+    400996: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 3
+    400998: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 4
+    401000: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 5
+    401002: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 6
+    401004: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 7
+    401006: Mounting_Plate
+    401008: Mounting_Plate 1
+    401010: Panel_-_Modern_5.5in_W_x_21.25in_H
+    401012: Panel_-_Modern_5.5in_W_x_21.25in_H 1
+    401014: Panel_-_Modern_5.5in_W_x_23.25in_H
+    401016: Panel_-_Modern_5.5in_W_x_23.25in_H 1
+    401018: Panel_-_Modern_5.5in_W_x_8.5in_H
+    401020: Panel_-_Modern_5.5in_W_x_8.5in_H 1
+    401022: Panel_Assembly_5.5in_W_x_21.25in_H__Modern__Roman_
+    401024: Panel_Assembly_5.5in_W_x_21.25in_H__Modern__Roman_ 1
+    401026: Panel_Assembly_5.5in_W_x_23.25in_H__Modern__Roman_
+    401028: Panel_Assembly_5.5in_W_x_23.25in_H__Modern__Roman_ 1
+    401030: Panel_Assembly_5.5in_W_x_8.5in_H__Modern__Roman_
+    401032: Panel_Assembly_5.5in_W_x_8.5in_H__Modern__Roman_ 1
+    401034: Power_Point_-_Clipsal_2000_Wall_Plate_with_2_x_Power_Ports_1
+    401036: Rail_-_Bottom_1.375in_x_15in_x_9.75in__22in___24in_door_
+    401038: Rail_-_Cross_1.375in_x_15in_x_3.875in__22in___24in_door_
+    401040: Rail_-_Lock_1.375in_x_15in_x_6.875in__22in___24in_door_
+    401042: Rail_-_Top_1.375in_x_15in_x_4.5in__22in___24in_door_
+    401044: Rose_-_Inside
+    401046: Rose_-_Outside
+    401048: Screw_-_Rounded_Head_5_32in_x_1_1_2in
+    401050: Screw_-_Rounded_Head_5_32in_x_1_1_2in 1
+    401052: Screw_head
+    401054: Screw_head 1
+    401056: Screw_head 2
+    401058: Screw_Head_-_Philips_0.25in_Recessed
+    401060: Screw_Head_-_Philips_0.25in_Recessed 1
+    401062: Screw_Head_-_Philips_0.25in_Recessed 10
+    401064: Screw_Head_-_Philips_0.25in_Recessed 11
+    401066: Screw_Head_-_Philips_0.25in_Recessed 12
+    401068: Screw_Head_-_Philips_0.25in_Recessed 13
+    401070: Screw_Head_-_Philips_0.25in_Recessed 14
+    401072: Screw_Head_-_Philips_0.25in_Recessed 15
+    401074: Screw_Head_-_Philips_0.25in_Recessed 16
+    401076: Screw_Head_-_Philips_0.25in_Recessed 17
+    401078: Screw_Head_-_Philips_0.25in_Recessed 18
+    401080: Screw_Head_-_Philips_0.25in_Recessed 19
+    401082: Screw_Head_-_Philips_0.25in_Recessed 2
+    401084: Screw_Head_-_Philips_0.25in_Recessed 20
+    401086: Screw_Head_-_Philips_0.25in_Recessed 21
+    401088: Screw_Head_-_Philips_0.25in_Recessed 3
+    401090: Screw_Head_-_Philips_0.25in_Recessed 4
+    401092: Screw_Head_-_Philips_0.25in_Recessed 5
+    401094: Screw_Head_-_Philips_0.25in_Recessed 6
+    401096: Screw_Head_-_Philips_0.25in_Recessed 7
+    401098: Screw_Head_-_Philips_0.25in_Recessed 8
+    401100: Screw_Head_-_Philips_0.25in_Recessed 9
+    401102: Square_Spindle
+    401104: Stile_-_1.375in_x_4in_x_21.25in
+    401106: Stile_-_1.375in_x_4in_x_23.25in
+    401108: Stile_-_1.375in_x_4in_x_8.5in
+    401110: Stile_-_Hinge_1.375in_x_3.5in_x_78in
+    401112: Stile_-_Lock_1.375in_x_78in_x_3.5in__Single_Bore_
+    401114: Strike_Plate
+    401116: Strikeplate
+    401118: Wall_Outlet
+    401120: Wall_Outlet 1
+    401122: Wall_Outlet 2
+    2300000: Door_Frame_-_Interior__3.5in_wall__1.375in_x_80in_x_12in_Door__With_Mortises_
+    2300002: Door_Jamb_-_4.5in_x_22.5_in__22in_Door_
+    2300004: Door_Jamb_-_4.5in_x_79.5_in__78in_H_x_1.375in_T_Door__Latch_Mortise_
+    2300006: Door_Jamb_Stop_-_22.125in__22in_Door_
+    2300008: Door_Jamb_Stop_-_78_13_16in__78in_Door_
+    2300010: Door_Jamb_Stop_-_78_13_16in__78in_Door_ 1
+    2300012: Faceplate_w__locking_pin_notch
+    2300014: group_0
+    2300016: group_1
+    2300018: group_10
+    2300020: group_11
+    2300022: group_12
+    2300024: group_13
+    2300026: group_14
+    2300028: group_15
+    2300030: group_16
+    2300032: group_17
+    2300034: group_18
+    2300036: group_19
+    2300038: group_2
+    2300040: group_21
+    2300042: group_22
+    2300044: group_23
+    2300046: group_24
+    2300048: group_25
+    2300050: group_26
+    2300052: group_27
+    2300054: group_28
+    2300056: group_29
+    2300058: group_3
+    2300060: group_30
+    2300062: group_31
+    2300064: group_32
+    2300066: group_33
+    2300068: group_34
+    2300070: group_35
+    2300072: group_37
+    2300074: group_38
+    2300076: group_39
+    2300078: group_4
+    2300080: group_40
+    2300082: group_41
+    2300084: group_41 1
+    2300086: group_41 2
+    2300088: group_42
+    2300090: group_43
+    2300092: group_44
+    2300094: group_45
+    2300096: group_46
+    2300098: group_47
+    2300100: group_48
+    2300102: group_49
+    2300104: group_5
+    2300106: group_50
+    2300108: group_6
+    2300110: group_7
+    2300112: group_8
+    2300114: group_9
+    2300116: Handle_-_Bell
+    2300118: Handle_-_Bell 1
+    2300120: Handle_Detail_-_Privacy_Lock_-_Concave
+    2300122: Handle_Detail_-_Twist_Lock
+    2300124: Hinge_Bottom_Cap
+    2300126: Hinge_Bottom_Cap 1
+    2300128: Hinge_Bottom_Cap 2
+    2300130: Hinge_Pin_-_3.5in
+    2300132: Hinge_Pin_-_3.5in 1
+    2300134: Hinge_Pin_-_3.5in 2
+    2300136: Hinge_Plate
+    2300138: Hinge_Plate 1
+    2300140: Hinge_Plate 2
+    2300142: ID1000
+    2300144: ID1036
+    2300146: ID1036 1
+    2300148: ID1042
+    2300150: ID1042 1
+    2300152: ID1048
+    2300154: ID1048 1
+    2300156: ID1054
+    2300158: ID1054 1
+    2300160: ID1074
+    2300162: ID1104
+    2300164: ID1104 1
+    2300166: ID1110
+    2300168: ID1110 1
+    2300170: ID1116
+    2300172: ID1116 1
+    2300174: ID1122
+    2300176: ID1122 1
+    2300178: ID1128
+    2300180: ID1128 1
+    2300182: ID1134
+    2300184: ID1134 1
+    2300186: ID1140
+    2300188: ID1140 1
+    2300190: ID1154
+    2300192: ID1160
+    2300194: ID1166
+    2300196: ID1172
+    2300198: ID1186
+    2300200: ID1186 1
+    2300202: ID1201
+    2300204: ID1207
+    2300206: ID1225
+    2300208: ID1240
+    2300210: ID1246
+    2300212: ID1252
+    2300214: ID1258
+    2300216: ID1264
+    2300218: ID1270
+    2300220: ID1286
+    2300222: ID1302
+    2300224: ID1308
+    2300226: ID1314
+    2300228: ID1320
+    2300230: ID1326
+    2300232: ID1332
+    2300234: ID1338
+    2300236: ID1342
+    2300238: ID1364
+    2300240: ID1370
+    2300242: ID1384
+    2300244: ID1384 1
+    2300246: ID1407
+    2300248: ID1413
+    2300250: ID1419
+    2300252: ID1434
+    2300254: ID1434 1
+    2300256: ID1434 2
+    2300258: ID1440
+    2300260: ID1440 1
+    2300262: ID1440 2
+    2300264: ID1446
+    2300266: ID1446 1
+    2300268: ID1446 2
+    2300270: ID1469
+    2300272: ID1469 1
+    2300274: ID1469 2
+    2300276: ID148
+    2300278: ID1483
+    2300280: ID1483 1
+    2300282: ID1483 2
+    2300284: ID1489
+    2300286: ID1489 1
+    2300288: ID1489 2
+    2300290: ID1495
+    2300292: ID1495 1
+    2300294: ID1495 2
+    2300296: ID1501
+    2300298: ID1501 1
+    2300300: ID1501 2
+    2300302: ID1507
+    2300304: ID1507 1
+    2300306: ID1507 2
+    2300308: ID1513
+    2300310: ID1513 1
+    2300312: ID1513 2
+    2300314: ID1521
+    2300316: ID1521 1
+    2300318: ID1521 2
+    2300320: ID1538
+    2300322: ID1544
+    2300324: ID1550
+    2300326: ID1556
+    2300328: ID1570
+    2300330: ID1585
+    2300332: ID1617
+    2300334: ID1623
+    2300336: ID1629
+    2300338: ID1635
+    2300340: ID1649
+    2300342: ID181
+    2300344: ID198
+    2300346: ID236
+    2300348: ID253
+    2300350: ID294
+    2300352: ID334
+    2300354: ID351
+    2300356: ID368
+    2300358: ID401
+    2300360: ID449
+    2300362: ID462
+    2300364: ID470
+    2300366: ID494
+    2300368: ID522
+    2300370: ID522 1
+    2300372: ID522 2
+    2300374: ID528
+    2300376: ID528 1
+    2300378: ID528 2
+    2300380: ID534
+    2300382: ID534 1
+    2300384: ID534 2
+    2300386: ID547
+    2300388: ID547 1
+    2300390: ID547 2
+    2300392: ID561
+    2300394: ID561 1
+    2300396: ID561 10
+    2300398: ID561 11
+    2300400: ID561 12
+    2300402: ID561 13
+    2300404: ID561 14
+    2300406: ID561 15
+    2300408: ID561 16
+    2300410: ID561 17
+    2300412: ID561 18
+    2300414: ID561 19
+    2300416: ID561 2
+    2300418: ID561 3
+    2300420: ID561 4
+    2300422: ID561 5
+    2300424: ID561 6
+    2300426: ID561 7
+    2300428: ID561 8
+    2300430: ID561 9
+    2300432: ID57
+    2300434: ID577
+    2300436: ID577 1
+    2300438: ID577 2
+    2300440: ID595
+    2300442: ID601
+    2300444: ID607
+    2300446: ID628
+    2300448: ID636
+    2300450: ID642
+    2300452: ID664
+    2300454: ID670
+    2300456: ID676
+    2300458: ID70
+    2300460: ID718
+    2300462: ID761
+    2300464: ID761 1
+    2300466: ID767
+    2300468: ID767 1
+    2300470: ID773
+    2300472: ID773 1
+    2300474: ID779
+    2300476: ID779 1
+    2300478: ID78
+    2300480: ID806
+    2300482: ID820
+    2300484: ID826
+    2300486: ID841
+    2300488: ID847
+    2300490: ID863
+    2300492: ID863 1
+    2300494: ID869
+    2300496: ID869 1
+    2300498: ID875
+    2300500: ID875 1
+    2300502: ID881
+    2300504: ID881 1
+    2300506: ID921
+    2300508: ID936
+    2300510: ID942
+    2300512: ID956
+    2300514: ID962
+    2300516: ID968
+    2300518: ID982
+    2300520: ID988
+    2300522: ID994
+    2300524: //RootNode
+    2300526: Latch
+    2300528: Latch_-_Barrel
+    2300530: Latch_-_Core
+    2300532: Locking_Pin
+    2300534: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V
+    2300536: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 1
+    2300538: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 2
+    2300540: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 3
+    2300542: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 4
+    2300544: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 5
+    2300546: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 6
+    2300548: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 7
+    2300550: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V
+    2300552: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 1
+    2300554: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 2
+    2300556: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 3
+    2300558: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 4
+    2300560: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 5
+    2300562: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 6
+    2300564: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 7
+    2300566: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H
+    2300568: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 1
+    2300570: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 10
+    2300572: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 11
+    2300574: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 12
+    2300576: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 13
+    2300578: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 14
+    2300580: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 15
+    2300582: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 16
+    2300584: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 17
+    2300586: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 18
+    2300588: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 19
+    2300590: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 2
+    2300592: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 20
+    2300594: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 21
+    2300596: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 22
+    2300598: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 23
+    2300600: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 3
+    2300602: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 4
+    2300604: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 5
+    2300606: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 6
+    2300608: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 7
+    2300610: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 8
+    2300612: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 9
+    2300614: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V
+    2300616: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 1
+    2300618: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 2
+    2300620: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 3
+    2300622: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 4
+    2300624: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 5
+    2300626: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 6
+    2300628: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 7
+    2300630: Mounting_Plate
+    2300632: Mounting_Plate 1
+    2300634: Panel_-_Modern_5.5in_W_x_21.25in_H
+    2300636: Panel_-_Modern_5.5in_W_x_21.25in_H 1
+    2300638: Panel_-_Modern_5.5in_W_x_23.25in_H
+    2300640: Panel_-_Modern_5.5in_W_x_23.25in_H 1
+    2300642: Panel_-_Modern_5.5in_W_x_8.5in_H
+    2300644: Panel_-_Modern_5.5in_W_x_8.5in_H 1
+    2300646: Rail_-_Bottom_1.375in_x_15in_x_9.75in__22in___24in_door_
+    2300648: Rail_-_Cross_1.375in_x_15in_x_3.875in__22in___24in_door_
+    2300650: Rail_-_Lock_1.375in_x_15in_x_6.875in__22in___24in_door_
+    2300652: Rail_-_Top_1.375in_x_15in_x_4.5in__22in___24in_door_
+    2300654: Rose_-_Inside
+    2300656: Rose_-_Outside
+    2300658: Screw_-_Rounded_Head_5_32in_x_1_1_2in
+    2300660: Screw_-_Rounded_Head_5_32in_x_1_1_2in 1
+    2300662: Screw_head
+    2300664: Screw_head 1
+    2300666: Screw_head 2
+    2300668: Screw_Head_-_Philips_0.25in_Recessed
+    2300670: Screw_Head_-_Philips_0.25in_Recessed 1
+    2300672: Screw_Head_-_Philips_0.25in_Recessed 10
+    2300674: Screw_Head_-_Philips_0.25in_Recessed 11
+    2300676: Screw_Head_-_Philips_0.25in_Recessed 12
+    2300678: Screw_Head_-_Philips_0.25in_Recessed 13
+    2300680: Screw_Head_-_Philips_0.25in_Recessed 14
+    2300682: Screw_Head_-_Philips_0.25in_Recessed 15
+    2300684: Screw_Head_-_Philips_0.25in_Recessed 16
+    2300686: Screw_Head_-_Philips_0.25in_Recessed 17
+    2300688: Screw_Head_-_Philips_0.25in_Recessed 18
+    2300690: Screw_Head_-_Philips_0.25in_Recessed 19
+    2300692: Screw_Head_-_Philips_0.25in_Recessed 2
+    2300694: Screw_Head_-_Philips_0.25in_Recessed 20
+    2300696: Screw_Head_-_Philips_0.25in_Recessed 21
+    2300698: Screw_Head_-_Philips_0.25in_Recessed 3
+    2300700: Screw_Head_-_Philips_0.25in_Recessed 4
+    2300702: Screw_Head_-_Philips_0.25in_Recessed 5
+    2300704: Screw_Head_-_Philips_0.25in_Recessed 6
+    2300706: Screw_Head_-_Philips_0.25in_Recessed 7
+    2300708: Screw_Head_-_Philips_0.25in_Recessed 8
+    2300710: Screw_Head_-_Philips_0.25in_Recessed 9
+    2300712: Square_Spindle
+    2300714: Stile_-_1.375in_x_4in_x_21.25in
+    2300716: Stile_-_1.375in_x_4in_x_23.25in
+    2300718: Stile_-_1.375in_x_4in_x_8.5in
+    2300720: Stile_-_Hinge_1.375in_x_3.5in_x_78in
+    2300722: Stile_-_Lock_1.375in_x_78in_x_3.5in__Single_Bore_
+    2300724: Strike_Plate
+    2300726: Wall_Outlet
+    2300728: Wall_Outlet 1
+    2300730: Wall_Outlet 2
+    3300000: Door_Frame_-_Interior__3.5in_wall__1.375in_x_80in_x_12in_Door__With_Mortises_
+    3300002: Door_Jamb_-_4.5in_x_22.5_in__22in_Door_
+    3300004: Door_Jamb_-_4.5in_x_79.5_in__78in_H_x_1.375in_T_Door__Latch_Mortise_
+    3300006: Door_Jamb_Stop_-_22.125in__22in_Door_
+    3300008: Door_Jamb_Stop_-_78_13_16in__78in_Door_
+    3300010: Door_Jamb_Stop_-_78_13_16in__78in_Door_ 1
+    3300012: Faceplate_w__locking_pin_notch
+    3300014: group_0
+    3300016: group_1
+    3300018: group_10
+    3300020: group_11
+    3300022: group_12
+    3300024: group_13
+    3300026: group_14
+    3300028: group_15
+    3300030: group_16
+    3300032: group_17
+    3300034: group_18
+    3300036: group_19
+    3300038: group_2
+    3300040: group_21
+    3300042: group_22
+    3300044: group_23
+    3300046: group_24
+    3300048: group_25
+    3300050: group_26
+    3300052: group_27
+    3300054: group_28
+    3300056: group_29
+    3300058: group_3
+    3300060: group_30
+    3300062: group_31
+    3300064: group_32
+    3300066: group_33
+    3300068: group_34
+    3300070: group_35
+    3300072: group_37
+    3300074: group_38
+    3300076: group_39
+    3300078: group_4
+    3300080: group_40
+    3300082: group_41
+    3300084: group_41 1
+    3300086: group_41 2
+    3300088: group_42
+    3300090: group_43
+    3300092: group_44
+    3300094: group_45
+    3300096: group_46
+    3300098: group_47
+    3300100: group_48
+    3300102: group_49
+    3300104: group_5
+    3300106: group_50
+    3300108: group_6
+    3300110: group_7
+    3300112: group_8
+    3300114: group_9
+    3300116: Handle_-_Bell
+    3300118: Handle_-_Bell 1
+    3300120: Handle_Detail_-_Privacy_Lock_-_Concave
+    3300122: Handle_Detail_-_Twist_Lock
+    3300124: Hinge_Bottom_Cap
+    3300126: Hinge_Bottom_Cap 1
+    3300128: Hinge_Bottom_Cap 2
+    3300130: Hinge_Pin_-_3.5in
+    3300132: Hinge_Pin_-_3.5in 1
+    3300134: Hinge_Pin_-_3.5in 2
+    3300136: Hinge_Plate
+    3300138: Hinge_Plate 1
+    3300140: Hinge_Plate 2
+    3300142: ID1000
+    3300144: ID1036
+    3300146: ID1036 1
+    3300148: ID1042
+    3300150: ID1042 1
+    3300152: ID1048
+    3300154: ID1048 1
+    3300156: ID1054
+    3300158: ID1054 1
+    3300160: ID1074
+    3300162: ID1104
+    3300164: ID1104 1
+    3300166: ID1110
+    3300168: ID1110 1
+    3300170: ID1116
+    3300172: ID1116 1
+    3300174: ID1122
+    3300176: ID1122 1
+    3300178: ID1128
+    3300180: ID1128 1
+    3300182: ID1134
+    3300184: ID1134 1
+    3300186: ID1140
+    3300188: ID1140 1
+    3300190: ID1154
+    3300192: ID1160
+    3300194: ID1166
+    3300196: ID1172
+    3300198: ID1186
+    3300200: ID1186 1
+    3300202: ID1201
+    3300204: ID1207
+    3300206: ID1225
+    3300208: ID1240
+    3300210: ID1246
+    3300212: ID1252
+    3300214: ID1258
+    3300216: ID1264
+    3300218: ID1270
+    3300220: ID1286
+    3300222: ID1302
+    3300224: ID1308
+    3300226: ID1314
+    3300228: ID1320
+    3300230: ID1326
+    3300232: ID1332
+    3300234: ID1338
+    3300236: ID1342
+    3300238: ID1364
+    3300240: ID1370
+    3300242: ID1384
+    3300244: ID1384 1
+    3300246: ID1407
+    3300248: ID1413
+    3300250: ID1419
+    3300252: ID1434
+    3300254: ID1434 1
+    3300256: ID1434 2
+    3300258: ID1440
+    3300260: ID1440 1
+    3300262: ID1440 2
+    3300264: ID1446
+    3300266: ID1446 1
+    3300268: ID1446 2
+    3300270: ID1469
+    3300272: ID1469 1
+    3300274: ID1469 2
+    3300276: ID148
+    3300278: ID1483
+    3300280: ID1483 1
+    3300282: ID1483 2
+    3300284: ID1489
+    3300286: ID1489 1
+    3300288: ID1489 2
+    3300290: ID1495
+    3300292: ID1495 1
+    3300294: ID1495 2
+    3300296: ID1501
+    3300298: ID1501 1
+    3300300: ID1501 2
+    3300302: ID1507
+    3300304: ID1507 1
+    3300306: ID1507 2
+    3300308: ID1513
+    3300310: ID1513 1
+    3300312: ID1513 2
+    3300314: ID1521
+    3300316: ID1521 1
+    3300318: ID1521 2
+    3300320: ID1538
+    3300322: ID1544
+    3300324: ID1550
+    3300326: ID1556
+    3300328: ID1570
+    3300330: ID1585
+    3300332: ID1617
+    3300334: ID1623
+    3300336: ID1629
+    3300338: ID1635
+    3300340: ID1649
+    3300342: ID181
+    3300344: ID198
+    3300346: ID236
+    3300348: ID253
+    3300350: ID294
+    3300352: ID334
+    3300354: ID351
+    3300356: ID368
+    3300358: ID401
+    3300360: ID449
+    3300362: ID462
+    3300364: ID470
+    3300366: ID494
+    3300368: ID522
+    3300370: ID522 1
+    3300372: ID522 2
+    3300374: ID528
+    3300376: ID528 1
+    3300378: ID528 2
+    3300380: ID534
+    3300382: ID534 1
+    3300384: ID534 2
+    3300386: ID547
+    3300388: ID547 1
+    3300390: ID547 2
+    3300392: ID561
+    3300394: ID561 1
+    3300396: ID561 10
+    3300398: ID561 11
+    3300400: ID561 12
+    3300402: ID561 13
+    3300404: ID561 14
+    3300406: ID561 15
+    3300408: ID561 16
+    3300410: ID561 17
+    3300412: ID561 18
+    3300414: ID561 19
+    3300416: ID561 2
+    3300418: ID561 3
+    3300420: ID561 4
+    3300422: ID561 5
+    3300424: ID561 6
+    3300426: ID561 7
+    3300428: ID561 8
+    3300430: ID561 9
+    3300432: ID57
+    3300434: ID577
+    3300436: ID577 1
+    3300438: ID577 2
+    3300440: ID595
+    3300442: ID601
+    3300444: ID607
+    3300446: ID628
+    3300448: ID636
+    3300450: ID642
+    3300452: ID664
+    3300454: ID670
+    3300456: ID676
+    3300458: ID70
+    3300460: ID718
+    3300462: ID761
+    3300464: ID761 1
+    3300466: ID767
+    3300468: ID767 1
+    3300470: ID773
+    3300472: ID773 1
+    3300474: ID779
+    3300476: ID779 1
+    3300478: ID78
+    3300480: ID806
+    3300482: ID820
+    3300484: ID826
+    3300486: ID841
+    3300488: ID847
+    3300490: ID863
+    3300492: ID863 1
+    3300494: ID869
+    3300496: ID869 1
+    3300498: ID875
+    3300500: ID875 1
+    3300502: ID881
+    3300504: ID881 1
+    3300506: ID921
+    3300508: ID936
+    3300510: ID942
+    3300512: ID956
+    3300514: ID962
+    3300516: ID968
+    3300518: ID982
+    3300520: ID988
+    3300522: ID994
+    3300524: //RootNode
+    3300526: Latch
+    3300528: Latch_-_Barrel
+    3300530: Latch_-_Core
+    3300532: Locking_Pin
+    3300534: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V
+    3300536: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 1
+    3300538: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 2
+    3300540: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 3
+    3300542: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 4
+    3300544: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 5
+    3300546: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 6
+    3300548: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V 7
+    3300550: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V
+    3300552: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 1
+    3300554: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 2
+    3300556: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 3
+    3300558: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 4
+    3300560: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 5
+    3300562: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 6
+    3300564: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V 7
+    3300566: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H
+    3300568: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 1
+    3300570: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 10
+    3300572: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 11
+    3300574: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 12
+    3300576: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 13
+    3300578: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 14
+    3300580: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 15
+    3300582: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 16
+    3300584: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 17
+    3300586: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 18
+    3300588: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 19
+    3300590: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 2
+    3300592: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 20
+    3300594: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 21
+    3300596: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 22
+    3300598: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 23
+    3300600: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 3
+    3300602: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 4
+    3300604: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 5
+    3300606: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 6
+    3300608: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 7
+    3300610: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 8
+    3300612: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H 9
+    3300614: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V
+    3300616: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 1
+    3300618: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 2
+    3300620: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 3
+    3300622: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 4
+    3300624: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 5
+    3300626: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 6
+    3300628: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V 7
+    3300630: Mounting_Plate
+    3300632: Mounting_Plate 1
+    3300634: Panel_-_Modern_5.5in_W_x_21.25in_H
+    3300636: Panel_-_Modern_5.5in_W_x_21.25in_H 1
+    3300638: Panel_-_Modern_5.5in_W_x_23.25in_H
+    3300640: Panel_-_Modern_5.5in_W_x_23.25in_H 1
+    3300642: Panel_-_Modern_5.5in_W_x_8.5in_H
+    3300644: Panel_-_Modern_5.5in_W_x_8.5in_H 1
+    3300646: Rail_-_Bottom_1.375in_x_15in_x_9.75in__22in___24in_door_
+    3300648: Rail_-_Cross_1.375in_x_15in_x_3.875in__22in___24in_door_
+    3300650: Rail_-_Lock_1.375in_x_15in_x_6.875in__22in___24in_door_
+    3300652: Rail_-_Top_1.375in_x_15in_x_4.5in__22in___24in_door_
+    3300654: Rose_-_Inside
+    3300656: Rose_-_Outside
+    3300658: Screw_-_Rounded_Head_5_32in_x_1_1_2in
+    3300660: Screw_-_Rounded_Head_5_32in_x_1_1_2in 1
+    3300662: Screw_head
+    3300664: Screw_head 1
+    3300666: Screw_head 2
+    3300668: Screw_Head_-_Philips_0.25in_Recessed
+    3300670: Screw_Head_-_Philips_0.25in_Recessed 1
+    3300672: Screw_Head_-_Philips_0.25in_Recessed 10
+    3300674: Screw_Head_-_Philips_0.25in_Recessed 11
+    3300676: Screw_Head_-_Philips_0.25in_Recessed 12
+    3300678: Screw_Head_-_Philips_0.25in_Recessed 13
+    3300680: Screw_Head_-_Philips_0.25in_Recessed 14
+    3300682: Screw_Head_-_Philips_0.25in_Recessed 15
+    3300684: Screw_Head_-_Philips_0.25in_Recessed 16
+    3300686: Screw_Head_-_Philips_0.25in_Recessed 17
+    3300688: Screw_Head_-_Philips_0.25in_Recessed 18
+    3300690: Screw_Head_-_Philips_0.25in_Recessed 19
+    3300692: Screw_Head_-_Philips_0.25in_Recessed 2
+    3300694: Screw_Head_-_Philips_0.25in_Recessed 20
+    3300696: Screw_Head_-_Philips_0.25in_Recessed 21
+    3300698: Screw_Head_-_Philips_0.25in_Recessed 3
+    3300700: Screw_Head_-_Philips_0.25in_Recessed 4
+    3300702: Screw_Head_-_Philips_0.25in_Recessed 5
+    3300704: Screw_Head_-_Philips_0.25in_Recessed 6
+    3300706: Screw_Head_-_Philips_0.25in_Recessed 7
+    3300708: Screw_Head_-_Philips_0.25in_Recessed 8
+    3300710: Screw_Head_-_Philips_0.25in_Recessed 9
+    3300712: Square_Spindle
+    3300714: Stile_-_1.375in_x_4in_x_21.25in
+    3300716: Stile_-_1.375in_x_4in_x_23.25in
+    3300718: Stile_-_1.375in_x_4in_x_8.5in
+    3300720: Stile_-_Hinge_1.375in_x_3.5in_x_78in
+    3300722: Stile_-_Lock_1.375in_x_78in_x_3.5in__Single_Bore_
+    3300724: Strike_Plate
+    3300726: Wall_Outlet
+    3300728: Wall_Outlet 1
+    3300730: Wall_Outlet 2
+    4300000: SketchUp
+    4300002: group_0
+    4300004: group_1
+    4300006: group_2
+    4300008: group_3
+    4300010: group_4
+    4300012: ID57
+    4300014: ID70
+    4300016: ID78
+    4300018: group_5
+    4300020: group_6
+    4300022: group_7
+    4300024: group_8
+    4300026: group_9
+    4300028: group_10
+    4300030: ID148
+    4300032: group_11
+    4300034: ID181
+    4300036: group_12
+    4300038: group_13
+    4300040: group_14
+    4300042: ID198
+    4300044: group_15
+    4300046: group_16
+    4300048: ID236
+    4300050: group_17
+    4300052: group_18
+    4300054: group_19
+    4300056: ID253
+    4300058: group_21
+    4300060: group_22
+    4300062: ID294
+    4300064: group_23
+    4300066: group_24
+    4300068: group_25
+    4300070: group_26
+    4300072: ID334
+    4300074: group_27
+    4300076: group_28
+    4300078: group_29
+    4300080: ID351
+    4300082: group_30
+    4300084: ID368
+    4300086: group_31
+    4300088: group_32
+    4300090: group_33
+    4300092: ID401
+    4300094: group_34
+    4300096: group_35
+    4300098: group_37
+    4300100: ID449
+    4300102: ID462
+    4300104: ID470
+    4300106: group_38
+    4300108: group_39
+    4300110: group_40
+    4300112: ID494
+    4300114: Hinge_Plate
+    4300116: ID522
+    4300118: ID528
+    4300120: ID534
+    4300122: Hinge_Bottom_Cap
+    4300124: ID547
+    4300126: Screw_Head_-_Philips_0.25in_Recessed
+    4300128: ID561
+    4300130: Hinge_Pin_-_3.5in
+    4300132: ID577
+    4300134: Strike_Plate
+    4300136: ID595
+    4300138: ID601
+    4300140: ID607
+    4300142: Door_Frame_-_Interior__3.5in_wall__1.375in_x_80in_x_12in_Door__With_Mortises_
+    4300144: ID628
+    4300146: ID636
+    4300148: ID642
+    4300150: Door_Jamb_Stop_-_78_13_16in__78in_Door_
+    4300152: Door_Jamb_-_4.5in_x_79.5_in__78in_H_x_1.375in_T_Door__Latch_Mortise_
+    4300154: ID664
+    4300156: ID670
+    4300158: ID676
+    4300160: Door_Jamb_Stop_-_78_13_16in__78in_Door_
+    4300162: Door_Jamb_Stop_-_22.125in__22in_Door_
+    4300164: Door_Jamb_-_4.5in_x_22.5_in__22in_Door_
+    4300166: Rail_-_Bottom_1.375in_x_15in_x_9.75in__22in___24in_door_
+    4300168: ID718
+    4300170: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H
+    4300172: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V
+    4300174: Molding_-_Classical_Roman_Profile_0.5in_-_23.25in_V
+    4300176: Panel_-_Modern_5.5in_W_x_23.25in_H
+    4300178: ID761
+    4300180: ID767
+    4300182: ID773
+    4300184: ID779
+    4300186: Molding_-_Classical_Roman_Profile_0.5in_-_5.5in_H
+    4300188: Stile_-_1.375in_x_4in_x_23.25in
+    4300190: ID806
+    4300192: Rail_-_Lock_1.375in_x_15in_x_6.875in__22in___24in_door_
+    4300194: ID820
+    4300196: ID826
+    4300198: Rail_-_Cross_1.375in_x_15in_x_3.875in__22in___24in_door_
+    4300200: ID841
+    4300202: ID847
+    4300204: Panel_-_Modern_5.5in_W_x_8.5in_H
+    4300206: ID863
+    4300208: ID869
+    4300210: ID875
+    4300212: ID881
+    4300214: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V
+    4300216: Molding_-_Classical_Roman_Profile_0.5in_-_8.5in_V
+    4300218: Stile_-_1.375in_x_4in_x_8.5in
+    4300220: ID921
+    4300222: Rail_-_Top_1.375in_x_15in_x_4.5in__22in___24in_door_
+    4300224: ID936
+    4300226: ID942
+    4300228: Stile_-_Lock_1.375in_x_78in_x_3.5in__Single_Bore_
+    4300230: ID956
+    4300232: ID962
+    4300234: ID968
+    4300236: Stile_-_Hinge_1.375in_x_3.5in_x_78in
+    4300238: ID982
+    4300240: ID988
+    4300242: ID994
+    4300244: ID1000
+    4300246: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V
+    4300248: Molding_-_Classical_Roman_Profile_0.5in_-_21.25in_V
+    4300250: Panel_-_Modern_5.5in_W_x_21.25in_H
+    4300252: ID1036
+    4300254: ID1042
+    4300256: ID1048
+    4300258: ID1054
+    4300260: Stile_-_1.375in_x_4in_x_21.25in
+    4300262: ID1074
+    4300264: Handle_-_Bell
+    4300266: Mounting_Plate
+    4300268: ID1104
+    4300270: ID1110
+    4300272: ID1116
+    4300274: ID1122
+    4300276: ID1128
+    4300278: ID1134
+    4300280: ID1140
+    4300282: Rose_-_Inside
+    4300284: ID1154
+    4300286: ID1160
+    4300288: ID1166
+    4300290: ID1172
+    4300292: Screw_-_Rounded_Head_5_32in_x_1_1_2in
+    4300294: ID1186
+    4300296: Handle_Detail_-_Twist_Lock
+    4300298: ID1201
+    4300300: ID1207
+    4300302: Handle_Detail_-_Privacy_Lock_-_Concave
+    4300304: ID1225
+    4300306: Rose_-_Outside
+    4300308: ID1240
+    4300310: ID1246
+    4300312: ID1252
+    4300314: ID1258
+    4300316: ID1264
+    4300318: ID1270
+    4300320: Square_Spindle
+    4300322: ID1286
+    4300324: Latch_-_Core
+    4300326: ID1302
+    4300328: ID1308
+    4300330: ID1314
+    4300332: ID1320
+    4300334: ID1326
+    4300336: ID1332
+    4300338: ID1338
+    4300340: ID1342
+    4300342: Latch
+    4300344: Latch_-_Barrel
+    4300346: ID1364
+    4300348: ID1370
+    4300350: Screw_Head_-_Philips_0.25in_Recessed
+    4300352: ID1384
+    4300354: Locking_Pin
+    4300356: Faceplate_w__locking_pin_notch
+    4300358: ID1407
+    4300360: ID1413
+    4300362: ID1419
+    4300364: group_41
+    4300366: ID1434
+    4300368: ID1440
+    4300370: ID1446
+    4300372: Wall_Outlet
+    4300374: ID1483
+    4300376: ID1489
+    4300378: ID1495
+    4300380: ID1501
+    4300382: ID1507
+    4300384: ID1513
+    4300386: ID1521
+    4300388: Screw_head
+    4300390: ID1469
+    4300392: group_42
+    4300394: ID1538
+    4300396: ID1544
+    4300398: ID1550
+    4300400: ID1556
+    4300402: group_43
+    4300404: group_44
+    4300406: ID1570
+    4300408: group_45
+    4300410: ID1585
+    4300412: group_46
+    4300414: group_47
+    4300416: ID1617
+    4300418: ID1623
+    4300420: ID1629
+    4300422: ID1635
+    4300424: group_48
+    4300426: group_49
+    4300428: ID1649
+    4300430: group_50
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
