@@ -16,14 +16,14 @@ public class sensorInput : MonoBehaviour {
 	//pins
 	public int breathSensorPin = 0;
 	public int pulseBeatPin = 2;
+	public int gsrSensorPin = 1;
 
 	//rawValues
 	public float heartBeatValue = 0.0f; 
 	public float rawBreathingValue = 0.0f;
-
-	List<float> rawDataList = new List<float>();
-	List<float> xList = new List<float>();
+	public float gsrRawValue = 0.0f;
 	
+
 	void Start () {
 		singleton = this;
 		arduino = Arduino.global;
@@ -44,11 +44,9 @@ public class sensorInput : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-//		Debug.Log(arduino.analogRead(breathSensorPin));
 		heartBeatValue = arduino.analogRead(pulseBeatPin);
 		rawBreathingValue = arduino.analogRead(breathSensorPin);
-
-
+		gsrRawValue = arduino.analogRead(gsrSensorPin);
 
 	}
 	

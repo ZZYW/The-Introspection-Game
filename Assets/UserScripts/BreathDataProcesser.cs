@@ -10,8 +10,11 @@ public class BreathDataProcesser : MonoBehaviour {
 		READY,
 		RUNNING
 	}
+	public delegate void del();
+	public static event del breathSensorReady;
 
 	States STATE;
+
 	bool isStable = false;
 	bool firstLogOut = false, secondLogOut = false, thirdLogOut = false; //log control, make sure log will only be printed once
 	public bool isInhaling = false, isExhaling = false;
@@ -36,6 +39,7 @@ public class BreathDataProcesser : MonoBehaviour {
 	public int inhaleCounter = 0;
 	public int deepBreathCounter = 0;
 
+	public bool drawCurve = true;
 
 	void Start () {
 		processedDataList = new List<float>();
@@ -47,24 +51,25 @@ public class BreathDataProcesser : MonoBehaviour {
 		//get data from sensorInput
 		float rawData = sensorInput.getSingleton().rawBreathingValue;
 		float processedData = 0.0f;
+		processedData = SensorProcessingMethods.smoothDataAddToList(processedDataList, rawData, dampRate ,dataSetSize);
 
-		//get at least one data into the list
-		if(processedDataList.Count == 0){
-			processedDataList.Add(rawData);
-		}else{
-			//smoother
-			float difference = rawData - processedDataList[processedDataList.Count-1];
-			processedData = processedDataList[processedDataList.Count-1] + ( difference * dampRate );
-			detectInExHale(processedData);
-			processedDataList.Add(processedData);
-
-		
-
-			//limit list's size to dataSetSize
-			if(processedDataList.Count > dataSetSize){
-				processedDataList.RemoveAt(0);
-			}
-		}
+//		//get at least one data into the list
+//		if(processedDataList.Count == 0){
+//			processedDataList.Add(rawData);
+//		}else{
+//			//smoother
+//			float difference = rawData - processedDataList[processedDataList.Count-1];
+//			processedData = processedDataList[processedDataList.Count-1] + ( difference * dampRate );
+//			detectInExHale(processedData);
+//			processedDataList.Add(processedData);
+//
+//		
+//
+//			//limit list's size to dataSetSize
+//			if(processedDataList.Count > dataSetSize){
+//				processedDataList.RemoveAt(0);
+//			}
+//		}
 
 		//state control
 		//super niubi!
@@ -108,6 +113,9 @@ public class BreathDataProcesser : MonoBehaviour {
 
 		case States.READY:
 			isStable = true;
+			if(breathSensorReady != null){
+				breathSensorReady();
+			}
 			if(!thirdLogOut){
 				Debug.Log("Breath Data All Set, Ready to use!");
 				thirdLogOut = true;
@@ -116,23 +124,12 @@ public class BreathDataProcesser : MonoBehaviour {
 		break;
 		}
 
-		drawCurves();
-
-	}
-
-	void drawCurves(){
-		if(processedDataList.Count>2){
-			for(int i=1; i< processedDataList.Count;i++){
-				Vector2 point_one = new Vector2(i-1,processedDataList[i-1]);
-				Vector2 point_two = new Vector2(i,processedDataList[i]);
-				Debug.DrawLine(point_one,point_two);
-			}
-		}
-
-		if(isStable){
-			Debug.DrawLine(new Vector2(0,inhaleExhalePurposeAverage),new Vector2(processedDataList.Count,inhaleExhalePurposeAverage));
+		if(drawCurve){
+				SensorProcessingMethods.drawCurves(processedDataList,inhaleExhalePurposeAverage,isStable);
 		}
 	}
+
+
 
 
 	void detectInExHale(float newInput){

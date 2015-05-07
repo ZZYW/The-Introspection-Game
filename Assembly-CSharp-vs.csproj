@@ -46,9 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BreathDataProcesser.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\Suimono_reflectionMirror.cs" />
-     <Compile Include="Assets\SensorChecker.cs" />
      <Compile Include="Assets\Uniduino\Scripts\Arduino.Firmata.cs" />
      <Compile Include="Assets\Uniduino\Scripts\Arduino.cs" />
      <Compile Include="Assets\Uniduino\Scripts\SerialPortProxy.cs" />
@@ -61,10 +59,14 @@
      <Compile Include="Assets\Uniduino\Tutorials\Servo\Servo.cs" />
      <Compile Include="Assets\Uniduino\Tutorials\Servo\ServoSlideControl.cs" />
      <Compile Include="Assets\Uniduino\UniduinoTestPanel\UniduinoTestPanel.cs" />
+     <Compile Include="Assets\UserScripts\BreathDataProcesser.cs" />
+     <Compile Include="Assets\UserScripts\GSRDataProcessor.cs" />
+     <Compile Include="Assets\UserScripts\SensorChecker.cs" />
+     <Compile Include="Assets\UserScripts\SensorProcessingMethods.cs" />
+     <Compile Include="Assets\UserScripts\changeLightColor.cs" />
+     <Compile Include="Assets\UserScripts\deGravityMe.cs" />
      <Compile Include="Assets\UserScripts\heartBeatMe.cs" />
      <Compile Include="Assets\UserScripts\sensorInput.cs" />
-     <Compile Include="Assets\changeLightColor.cs" />
-     <Compile Include="Assets\deGravityMe.cs" />
      <None Include="Assets\SUIMONO - WATER SYSTEM 2\SHADERS\SuimonoFunctionsDX11.cginc" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

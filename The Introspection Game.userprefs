@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BreathDataProcesser.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserScripts/sensorInput.cs">
     <Files>
-      <File FileName="Assets/BreathDataProcesser.cs" Line="35" Column="2" />
-      <File FileName="Assets/changeLightColor.cs" Line="1" Column="1" />
-      <File FileName="Assets/UserScripts/sensorInput.cs" Line="1" Column="1" />
-      <File FileName="Assets/SensorChecker.cs" Line="1" Column="1" />
+      <File FileName="Assets/UserScripts/sensorInput.cs" Line="50" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
