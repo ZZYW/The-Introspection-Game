@@ -49,7 +49,6 @@ public class sensorInput : MonoBehaviour {
 		gsrRawValue = arduino.analogRead(gsrSensorPin);
 
 	}
-	
 
 
 }

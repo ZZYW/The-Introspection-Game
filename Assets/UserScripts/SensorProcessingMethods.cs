@@ -6,6 +6,7 @@ public static class SensorProcessingMethods {
 
 
 
+
 	//smooth! add to list!
 	public static float smoothDataAddToList(List<float> _processedDataList, 
 	                                       float _newInputRawData, 
