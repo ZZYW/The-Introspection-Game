@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserScripts/sensorInput.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserScripts/BreathDataProcesser.cs">
     <Files>
-      <File FileName="Assets/UserScripts/sensorInput.cs" Line="50" Column="3" />
+      <File FileName="Assets/UserScripts/sensorInput.cs" Line="22" Column="38" />
+      <File FileName="Assets/UserScripts/SensorProcessingMethods.cs" Line="10" Column="42" />
+      <File FileName="Assets/UserScripts/BreathDataProcesser.cs" Line="176" Column="21" />
+      <File FileName="Assets/UserScripts/GSRDataProcessor.cs" Line="28" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
