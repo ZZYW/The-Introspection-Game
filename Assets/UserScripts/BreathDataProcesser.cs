@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class BreathDataProcesser : MonoBehaviour {
 	
-	enum States {
+	private enum States {
 		WAITING_ACTUALLY_SENSOR_INPUT,
 		GETTING_FIX_AVERAGE,
 		READY,
@@ -13,12 +13,13 @@ public class BreathDataProcesser : MonoBehaviour {
 	
 	public delegate void del();
 	public static event del breathSensorReady;
+	public static event del deepBreathHappened;
 	
 	//state control
 	States STATE;
 	bool isStable = false;
 	bool firstLogOut = false, secondLogOut = false, thirdLogOut = false; //log control, make sure log will only be printed once
-	
+	float waitingDataTime = 8.0f;
 	
 	//data process
 	List<float> dataSetForFixAverage; //list for calculating fixed average
@@ -34,7 +35,8 @@ public class BreathDataProcesser : MonoBehaviour {
 	bool isDecreasing = false, isIncreasing = false;
 	int decreaseCounter = 0;
 	int increaseCounter = 0;
-	int falutTolerantThreshold = 15; //how many times we ignore before swtich states between increasing and decrease
+	//how many times we ignore before swtich states between increasing and decrease
+	int falutTolerantThreshold = 10; 
 	int increaseFaultTolerantCounter = 0;
 	int decreaseFaultTolerantCounter = 0;
 	int inhaleDetermineThreshold = 10;
@@ -54,23 +56,26 @@ public class BreathDataProcesser : MonoBehaviour {
 	float inhaleCoolDownTime = 2;
 	
 	//deep breath
-	int deepBreathDetermineThreshold = 80;
+	int deepBreathDetermineThreshold = 45;
 	public int deepBreathCounter = 0;
-	float deepBreathCoolDownTime = 5; //seconds
+	public static float deepBreathCoolDownTime = 4; //seconds
 	bool deepBreathInCoolDown = false;
 	float timeStamp4DeepBreath = 0.0f;
 	
 	
 	//data viz
 	public bool drawCurve = true;
-	
+
+	//=====================================================================================================================
+
 	void Start () {
 		processedDataList = new List<float>();
 		dataSetForFixAverage = new List<float>();
 		inhaleDepthList = new List<float>();
 	}
 	
-	
+	//=====================================================================================================================
+
 	void Update () {
 		//get data from sensorInput
 		float rawData = sensorInput.getSingleton().rawBreathingValue;
@@ -78,13 +83,18 @@ public class BreathDataProcesser : MonoBehaviour {
 		processedData = SensorProcessingMethods.smoothDataAddToList(processedDataList, rawData, dampRate ,dataSetSize);
 		
 		//start detecing data when actually data comes in
-		if(STATE!=States.WAITING_ACTUALLY_SENSOR_INPUT){
+		if(STATE != States.WAITING_ACTUALLY_SENSOR_INPUT){
 			detectInExHale(processedData);
 		}
-		
-		//state control
-		//super niubi!
-		
+
+		stateController(processedData);
+		getAverageInhaleDepth();
+		curveDrawer();
+	
+	}
+	//=====================================================================================================================
+
+	void stateController(float processedData){
 		switch(STATE){
 			
 		case States.WAITING_ACTUALLY_SENSOR_INPUT:
@@ -92,7 +102,10 @@ public class BreathDataProcesser : MonoBehaviour {
 				Debug.Log("Waiting for the actual sensor data come in......");
 				firstLogOut = true;
 			}
-			if(processedDataList.Count >= dataSetSize){
+//			if(processedDataList.Count >= dataSetSize){
+//				STATE++;
+//			}
+			if(Time.time > waitingDataTime){
 				STATE++;
 			}
 			break;
@@ -100,8 +113,8 @@ public class BreathDataProcesser : MonoBehaviour {
 			
 		case States.GETTING_FIX_AVERAGE:
 			if(!secondLogOut){
-				Debug.Log ("Trying to get the fixed average value by collect " + lengthOfListForGettingFixedAverage
-				           + "breath input data...");
+				Debug.Log("Trying to get the fixed average value by collect " + lengthOfListForGettingFixedAverage
+				          + " breath input data...");
 				secondLogOut = true;
 			}
 			//add data into dataSetForFixedAverage, when the lengh reaches lengthOfListForGettingFixedAverage
@@ -134,13 +147,10 @@ public class BreathDataProcesser : MonoBehaviour {
 			STATE++;
 			break;
 		}
-		getAverageInhaleDepth();
-		if(drawCurve){
-			SensorProcessingMethods.drawCurves(processedDataList,inhaleExhalePurposeAverage,isStable);
-		}
 	}
-	
-	
+
+	//=====================================================================================================================
+
 	
 	void detectInExHale(float newInput){
 		//when neither increasing nor decreasing
@@ -162,8 +172,7 @@ public class BreathDataProcesser : MonoBehaviour {
 	 * then add one to increaseFaultTolerantCounter
 	 * If increaseFaultTolerantCounter has already reached the falutTolerantThreshold
 	 * then turn increasing flag to false and clear increaseFaultTolerantCounter and increaseCounter to 0
-	 * Decreasing(inhale) works exactly the same way.
-				 */
+	 * Decreasing(inhale) works exactly the same way. */
 		
 		if(isIncreasing){
 			if(newInput > processedDataList[processedDataList.Count-2]){
@@ -193,7 +202,6 @@ public class BreathDataProcesser : MonoBehaviour {
 						if(decreaseCounter>10){ //for accuracy purpose. too small means this is a noise.
 							inhaleDepthList.Add(decreaseCounter);
 						}
-						
 					}
 					if(printEveryInhaleDepth)Debug.Log(decreaseCounter);
 					decreaseCounter = 0;
@@ -213,7 +221,7 @@ public class BreathDataProcesser : MonoBehaviour {
 		}
 		
 		if(decreaseCounter >= exhaleDetermineThreshold){
-//inhale cool down stuff			
+			//inhale cool down stuff			
 			if(inhaleIsInCoolDown){
 				if(Time.time - timeStamp4Inhale > inhaleCoolDownTime){
 					inhaleIsInCoolDown = false;
@@ -224,12 +232,12 @@ public class BreathDataProcesser : MonoBehaviour {
 				inhaleIsInCoolDown = true;
 				timeStamp4Inhale = Time.time;
 			}
-//cool down stuff ends			
+			//cool down stuff ends			
 		}else if(decreaseCounter < exhaleDetermineThreshold){
 			isInhaling = false;
 		}
 		
-//deep breath cool down stuff
+		//deep breath cool down stuff
 		if(deepBreathInCoolDown){
 			if(Time.time - timeStamp4DeepBreath > deepBreathCoolDownTime){
 				deepBreathInCoolDown = false;
@@ -239,14 +247,16 @@ public class BreathDataProcesser : MonoBehaviour {
 			//if the decreasing is deeper than a certain threshold, then we add one to the deep breath counter.
 			if(decreaseCounter >= deepBreathDetermineThreshold){
 				deepBreathCounter++;
+				if(deepBreathHappened!=null){
+					deepBreathHappened();
+				}
 				deepBreathInCoolDown = true;
 				timeStamp4DeepBreath = Time.time;
 			}
 		}
-
-
 	}
-	
+	//=====================================================================================================================
+
 	void getAverageInhaleDepth(){
 		if(inhaleDepthList.Count >= inhaleDepthListLength && averageInhaleDepth == 0.0f){
 			Debug.Log ("start calculating Average Inhale Depth");
@@ -258,9 +268,15 @@ public class BreathDataProcesser : MonoBehaviour {
 			Debug.Log(averageInhaleDepth + " average inhale depth");
 		}
 	}
-	
-	
-	
-	
-	
+
+	//=====================================================================================================================
+
+
+	void curveDrawer(){
+		if(drawCurve){
+			SensorProcessingMethods.drawCurves(processedDataList,inhaleExhalePurposeAverage,isStable);
+		}
+	}
+	//=====================================================================================================================
+
 }
